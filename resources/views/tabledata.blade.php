@@ -8,9 +8,9 @@
     </tr>
     @foreach ($data as $customer)
         <tr>
-        <td>{{$customer->firstName}}</td>
-        <td>{{$customer->lastName}}</td>
-        <td>{{$customer->mobileNumber}}</td>
+        <td>{{$customer->firstname}}</td>
+        <td>{{$customer->lastname}}</td>
+        <td>{{$customer->mobilenumber}}</td>
         <td>{{$customer->email}}</td>
 
         </tr>

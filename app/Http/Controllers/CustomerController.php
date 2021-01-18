@@ -15,9 +15,9 @@ class CustomerController extends Controller
 //        echo (request('email'));
         // return view('customer',['collection'=>$data['data']]);
         $data = array(
-            'firstName'=>request('first-name'),
-            'lastName'=>request('last-name'),
-            'mobileNumber'=>request('mobile-number'),
+            'firstname'=>request('first-name'),
+            'lastname'=>request('last-name'),
+            'mobilenumber'=>request('mobile-number'),
             'email'=>request('email')
         );
         return view('tabledata')->with($data);
